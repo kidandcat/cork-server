@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mariadb": "mariadb://root:@localhost:3306/server",
+  "public": "../public/",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "xaEKUhx+5u3ygCS3j8aPBzEOiCwrXxVrEan1RHV+Oionc5K13TDfTUMy7FakAdRZlU0uv9TOEDLisubXDiY7Hg=="
+    },
+    "local": {}
+  }
+}
